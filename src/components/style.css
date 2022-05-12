@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.main-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h3{
+    font-family: 'Macondo', cursive;
+    color: rgb(90, 4, 111);
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 1px 5px 1px palevioletred;
+}
+
+.display {
+    height: 400px;
+    width: 300px;
+    background-image: url('https://media.istockphoto.com/photos/weather-forecast-picture-id477110708?b=1&k=20&m=477110708&s=170667a&w=0&h=RFXa1v6UAFt5kObR1fGY0yi33ouNmobCYNJlXH6vr6I=');
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temperatureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.temperatureStyle {
+    display: flex;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    border: 3px #ffffff solid;
+    transition: background 2.5s;
+}
+
+.temperatureStyle:hover {
+    box-shadow: rgb(93, 91, 92) 0px 10px 10px 0px;
+}
+
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton {
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    font-size: 32px;
+    color: #ffffff;
+    margin: 2px;
+    background: rgb(8, 140, 176);
+}
+
+.addButton:hover {
+    cursor: pointer;
+    background: rgba(3, 225, 254, 0.29);
+    box-shadow: rgb(93, 91, 92) 0px 10px 10px 0px;
+}
+
+.minusButton {
+    border-radius: 100px;
+    height: 80px;
+    margin: 2px;
+    width: 80px;
+    font-size: 32px;
+    color: #ffffff;
+    background: rgb(8, 140, 176);
+}
+
+.minusButton:hover {
+    cursor: pointer;
+    background: rgba(3, 225, 254, 0.29);
+    box-shadow: rgb(93, 91, 92) 0px 10px 10px 0px;
+}
+
+.cold {
+    background-image: url('https://media.istockphoto.com/photos/icicles-and-snowstorm-picture-id160840799?b=1&k=20&m=160840799&s=170667a&w=0&h=PxXZ17a0yBpaBk7aYfYOBPZeK7s4QPAQdhA0HzvTncI=');
+}
+
+.hot {
+    background-image: url('https://adminassets.devops.arabiaweather.com/sites/default/files/field/image/arabiaweather%20-%20source%20hello%20kaleido%20-%20Ghaleb%20abubaker.jpg');
+}
+
+.rain {
+    background-image: url('https://media.istockphoto.com/photos/rainy-weather-picture-id503284599?b=1&k=20&m=503284599&s=170667a&w=0&h=poCZhv5uBJWEc2slP_mTlWni7zg8UskR2o9Rro8_RQQ=');
+}
+
+.neutral {
+    background-image: url('https://images.foxtv.com/static.q13fox.com/www.q13fox.com/content/uploads/2020/06/764/432/clouds-mostly-sunny.jpg?ve=1&tl=1');
+}
